@@ -1,0 +1,76 @@
+#formselectfull {
+    border-style: dotted;
+    border-color: cornflowerblue;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#formselectthree {
+    border-style: dotted;
+    border-color: cornflowerblue;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tip {
+    position: relative;
+    display: inline-block;
+}
+
+.tiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: grey;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tip:hover .tiptext {
+    visibility: visible;
+    color: white;
+}
+
+form #Input{
+    padding: 5px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: gray;
+}
+
+form #result{
+    padding: 5px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: gray;
+}
+
+input[type=text] {
+    width: 100%;
+}
+
+#arraysorted {
+    overflow: scroll;
+    resize: none;
+}
+
+.removea {
+    text-decoration: none;
+    color: #fff;
+    font-size: large;
+}
+
+#Input {
+    padding-bottom: 5px;
+}
+
+.times {
+    font-family: 'Times New Roman', Times, serif;
+    color:#fff;
+}
